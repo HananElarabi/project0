@@ -1,6 +1,11 @@
 package com.github.hananelarabi;
 
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Scanner;
+import java.sql.Connection;
+import java.sql.Statement;
+
 
 public class CircleCalculator {
 	
@@ -28,25 +33,21 @@ public class CircleCalculator {
 			System.out.println("Invalid Input!");
 			
 		}
-		 /*try{
-			Connection connection = DriverManager.getConnection(url, username, password);
-			int rowCount = statement.excecuteUpdate("Insert into students values('1','Hanan','Elarabi','30')");
-			System.out.println(rowCount + "rows affectid.");
+		 
+			 try {
+
+				Connection connection = DriverManager.getConnection(url, username, password);
+				Statement statement = connection.createStatement();
+				int rowCount = statement.excecuteUpdate("Insert into students values('1','Hanan','Elarabi','30')");
+
+
+
+			 } catch (SQLException e) {
+				 e.printStackTrace();
+			 }
 			
-			ResultSet resulSet = statement.excecuteQuery("select * from students");*/
 			
-			/*//To print the table
-			while(resultSet.next()){
-			System.out.println(resultSet.getInt("id"));
-			System.out.println(resultSet.getString("fName"));
-			System.out.println(resultSet.getString("lName"));
-			System.out.println(resultSet.getInt("Age"));
 			
-			}
-			
-			}catch(SQLException e){
-				e.printStackTrace;
-			}*/
 			
 
 	}
