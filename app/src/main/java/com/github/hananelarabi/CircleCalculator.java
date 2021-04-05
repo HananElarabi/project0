@@ -1,19 +1,15 @@
 package com.github.hananelarabi;
 
-import java.sql.DriverManager;
-import java.sql.SQLException;
+//import java.sql.DriverManager;
+//import java.sql.SQLException;
 import java.util.Scanner;
-import java.sql.Connection;
-import java.sql.Statement;
+//import java.sql.Connection;
+//import java.sql.Statement;
 
 
 public class CircleCalculator {
 	
 	public static void circleCalculator(Scanner input) {
-		
-		String url = "jdbc:postgressql://localhost:5432/postgres";
-		String username = "postgres";
-		String password = "P4ssw0rd";
 
 		try {
 		//Taking user input
@@ -34,21 +30,23 @@ public class CircleCalculator {
 			
 		}
 		 
-			 try {
 
-				Connection connection = DriverManager.getConnection(url, username, password);
-				Statement statement = connection.createStatement();
-				int rowCount = statement.excecuteUpdate("Insert into students values('1','Hanan','Elarabi','30')");
+		//********************************************************************************************* */
 
+		/*String url = "jdbc:postgressql://localhost:5432/postgres";
+		String username = "postgres";
+		String password = "P4ssw0rd";*/
+		
+			//try {
 
+				//Connection connection = DriverManager.getConnection(url, username, password);
+				//Statement statement = connection.createStatement();
+				//int rowCount = statement.excecuteUpdate("Insert into students values('1','Hanan','Elarabi','30')");
 
-			 } catch (SQLException e) {
-				 e.printStackTrace();
-			 }
-			
-			
-			
-			
+			// } catch (SQLException e) {
+				// e.printStackTrace();
+			// }
+		
 
 	}
 
