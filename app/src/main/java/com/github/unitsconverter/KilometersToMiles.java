@@ -1,4 +1,4 @@
-package com.github.hananelarabi;
+package com.github.unitsconverter;
 
 import java.util.Scanner;
 
