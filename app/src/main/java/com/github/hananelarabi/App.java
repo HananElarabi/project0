@@ -7,12 +7,6 @@ import com.github.geocmetricalculator.GeoCalculator;
 import com.github.unitsconverter.unitConverter;
 
 
-/*import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Connection;
-import java.sql.ResultSet;*/
-
-
 public class App {
 
 	
