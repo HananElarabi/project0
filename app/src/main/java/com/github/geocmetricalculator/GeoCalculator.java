@@ -1,4 +1,4 @@
-package com.github.hananelarabi;
+package com.github.geocmetricalculator;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class GeoCalculator {
 		System.out.println("Welcome to Geometrical calculator!");
 		System.out.println("Please choose your shape:\n"
 		+ "1- Square  2-Circle 3-Tringle 4-Rectangle  q- to quit ");
+
 		String gchoice = input.nextLine();
 		
 		switch (gchoice) {

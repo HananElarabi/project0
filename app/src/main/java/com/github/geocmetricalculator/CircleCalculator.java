@@ -1,4 +1,4 @@
-package com.github.hananelarabi;
+package com.github.geocmetricalculator;
 
 //import java.sql.DriverManager;
 //import java.sql.SQLException;
@@ -31,7 +31,7 @@ public class CircleCalculator {
 		}
 		 
 
-		//********************************************************************************************* */
+		//********************************************************************************************* *//
 
 		/*String url = "jdbc:postgressql://localhost:5432/postgres";
 		String username = "postgres";

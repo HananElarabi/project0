@@ -3,6 +3,16 @@
  */
 package com.github.hananelarabi;
 import java.util.Scanner;
+import com.github.geocmetricalculator.GeoCalculator;
+//import com.github.geocmetricalculator.SquareCalculator;
+
+
+/*import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Connection;
+import java.sql.ResultSet;*/
+
+
 
 public class App {
 
@@ -23,8 +33,7 @@ public class App {
 		
 					switch (choice) {
 					case "1":	
-					GeoCalculator.gCalculator(input);
-
+						GeoCalculator.gCalculator(input);
 						break;
 					case "2":
 						unitConverter.uConvertert(input);

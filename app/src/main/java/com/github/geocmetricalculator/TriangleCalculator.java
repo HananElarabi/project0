@@ -1,4 +1,5 @@
-package com.github.hananelarabi;
+package com.github.geocmetricalculator;
+
 import java.util.Scanner;
 
 public class TriangleCalculator {
