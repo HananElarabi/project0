@@ -9,7 +9,6 @@ import com.github.unitsconverter.unitConverter;
 
 public class App{
 
-	
 	public static void main(String[] args) {
 	
 		boolean isValid = false;

@@ -1,15 +1,16 @@
 package com.github.geocmetricalculator;
 
 import java.util.Scanner;
-/*import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Connection;
-import java.sql.Statement;
-import java.sql.ResultSet;*/
 
 
 public class CircleCalculator {
+	// static double radius;
+	// static double ciarea;
+	// static double cidiameter;
+	// static double cicircumference;
 	
+
+
 	public static void circleCalculator(Scanner input) {
 
 		try {
@@ -33,5 +34,6 @@ public class CircleCalculator {
 			
 			
 	}
-
 }
+
+		
