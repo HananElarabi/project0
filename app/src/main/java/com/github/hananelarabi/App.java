@@ -7,7 +7,7 @@ import com.github.geocmetricalculator.GeoCalculator;
 import com.github.unitsconverter.unitConverter;
 
 
-public class App {
+public class App{
 
 	
 	public static void main(String[] args) {
@@ -42,7 +42,5 @@ public class App {
 			}				
 
 	}
-	public String getGreeting(){
-		return "Hello World";
-	}	
+		
 }

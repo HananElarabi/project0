@@ -1,11 +1,11 @@
 package com.github.geocmetricalculator;
 
-import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.util.Scanner;
+/*import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.Connection;
 import java.sql.Statement;
-import  java.sql.ResultSet;
+import java.sql.ResultSet;*/
 
 
 public class CircleCalculator {
@@ -30,32 +30,7 @@ public class CircleCalculator {
 			System.out.println("Invalid Input!");
 			
 		}
-		 
-
-		//********************************************************************************************* *//
-
-		String url = "jdbc:postgressql://localhost:5432/postgres";
-		String username = "postgres";
-		String password = "P4ssw0rd";
-		
-			try {
-
-				Connection connection = DriverManager.getConnection(url, username, password);
-				Statement statement = connection.createStatement();
-				int rowCount = statement.executeUpdate("Insert into students values('1','Hanan','Elarabi','0')");
-				System.out.println(rowCount + "rows affectid.");
-				ResultSet resultSet = statement.executeQuery("select * from students");
-
-					while(resultSet.next()){
-					System.out.println(resultSet.getInt("id"));
-					System.out.println(resultSet.getString("fName"));
-					System.out.println(resultSet.getString("lName"));
-					System.out.println(resultSet.getInt("Age"));}
-
-
-			 } catch (SQLException e) {
-				 e.printStackTrace();
-			 }	
+			
 			
 	}
 

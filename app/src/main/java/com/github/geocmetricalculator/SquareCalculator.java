@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class SquareCalculator {
 
-	
 	public static void squareCalculator(Scanner input) {
 		
 		try {
